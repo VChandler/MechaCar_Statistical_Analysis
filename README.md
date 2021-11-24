@@ -1,5 +1,7 @@
 # MechaCar Statistical Analysis
 ## Overview
+The project examined various datasets regarding the production of AutosRUs' newest prototype for insights to assist with manufacturing.  The statistical software R was used for the analysis.  
+
 ## Linear Regression to Predict MPG  
 In the first deliverable for the challenge, I examined the data to produce a multiple regression model to predict MPG based on several variables including: 
 * Vehicle Length
