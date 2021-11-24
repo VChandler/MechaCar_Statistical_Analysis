@@ -27,4 +27,26 @@ The data indicates that variance is at 62, well within the design specs.  Howeve
 Lot Summary:  
 ![del2-lotsummary](https://user-images.githubusercontent.com/88070999/143178038-8ee73e2e-e36f-45a3-be78-2ea285b7665d.png)
 
-Variance for lots 1 and 2 are miniscule- nearly 1 and 7.5 respectively.  Lot 3 is showing variance of 170, which is 70 above the specs.  As a result, further actions should be taken to focus on Lot 3 manufacturing to bring the variance of PSI within acceptable ranges.
+Variance for lots 1 and 2 are miniscule- nearly 1 and 7.5 respectively.  Lot 3 is showing variance of 170, which is 70 above the specs.  As a result, further actions should be taken to focus on Lot 3 manufacturing to bring the variance of PSI within acceptable ranges.  
+
+## T-Tests on Suspension Coils  
+The next part of the analysis utilized t-tests to determine of the lots (collectively and separately) are statistically different from the population mean of 1,500 PSI.  Our significance level used is 0.05.
+
+### All lots:  
+![del3-all](https://user-images.githubusercontent.com/88070999/143322536-48268a53-17e0-4c53-b511-3fc1d01bed30.png)  
+According to the above, the p-value is 0.06, which is above our significance level.  As such, the manufacturing lots as a whole have statistically similar means to the population mean.
+
+### Lot 1:  
+![del3-lot1](https://user-images.githubusercontent.com/88070999/143322554-75371cce-b805-4313-9b65-5365f3a167c5.png)  
+The above results indicate that, with a p-value of 1, manufacturing lot 1 is statistically similar to the population mean for PSI.
+
+### Lot 2:  
+![del3-lot2](https://user-images.githubusercontent.com/88070999/143322562-ad040a28-5f70-4533-95ce-1f828feb5a79.png)  
+Although not quite as high as lot 1, lot 2 has a p-value of .6 which indicates that the lot is statistically similar to the population mean for PSI.
+
+### Lot 3:  
+![del3-lot3](https://user-images.githubusercontent.com/88070999/143322575-2a42dc20-9969-4d85-b20f-3b5a180132b1.png)  
+As expected, lot 3 (which had higher standard deviation than the other two lots) shows a statistically different mean in PSI vs. the population mean of 1,500.  In this case, we reject the null hypothesis that the means are the same.
+
+
+
