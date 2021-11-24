@@ -46,7 +46,20 @@ Although not quite as high as lot 1, lot 2 has a p-value of .6 which indicates t
 
 ### Lot 3:  
 ![del3-lot3](https://user-images.githubusercontent.com/88070999/143322575-2a42dc20-9969-4d85-b20f-3b5a180132b1.png)  
-As expected, lot 3 (which had higher standard deviation than the other two lots) shows a statistically different mean in PSI vs. the population mean of 1,500.  In this case, we reject the null hypothesis that the means are the same.
+As expected, lot 3 (which had higher standard deviation than the other two lots) shows a statistically different mean in PSI vs. the population mean of 1,500.  In this case, we reject the null hypothesis that the means are the same.  
 
+## Study Design: MechaCar vs Competition
+### Overview
+For further analysis, a statistical study that may be of some interest to the consumer could indicate the lower five-year maintenance cost of a MechaCar compared to the competition.
+
+### Hypothesis
+Null Hypothesis: There is no statistical difference in maintenance cost over five years between a MechaCar and a competition's car.
+Alternative Hypothesis: The five year maintenance cost of a MechaCar is statistically lower than a competition's maintenance cost over the same period.
+
+### Statistical Test
+A two sample t-test would be used since these are two different samples.  This would be a one-tail test since we are only checking whether the MechaCar has a lower cost of maintenance.
+
+### Data Required
+We would need to obtain reliable data from a number of owners for both the MechaCar and the competition car.  This would be maintenance costs over a five year period.  We would then be able to import the data into R for the t-test.
 
 
